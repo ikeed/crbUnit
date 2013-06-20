@@ -9,6 +9,7 @@
 #include <signal.h>
 #include <string.h>
 #include <iomanip>
+#include <stdarg.h>
 
 #define MAX_SECONDS 5
 
@@ -232,6 +233,5 @@ void freeHeap(vector<void*> *hp) {
 	}
 	delete hp;
 }
-
 
 
